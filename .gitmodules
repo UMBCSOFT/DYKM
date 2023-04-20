@@ -1,6 +1,0 @@
-[submodule "DYNM_Client"]
-	path = DYNM_Client
-	url = git@github.com:UMBCSOFT/DYNM_Client.git
-[submodule "DYNM_Server"]
-	path = DYNM_Server
-	url = git@github.com:UMBCSOFT/DYNM_Server.git

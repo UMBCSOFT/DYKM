@@ -1,12 +1,12 @@
 version: '3'
 services:
-  dykm_client:
-    build: "./DYKM/Dockerfile"
-    container_name: "DYKM_Client"
-    ports:
-      - "3000:3000"
+    dykm_client:
+        build: ./DYKM_Client/Dockerfile
+        container_name: "DYKM_Client"
+        ports:
+          - "3000:3000"
     dykm_server:
-      build: "./DYKM_Server/Dockerfile"
+      build: ./DYKM_Server/Dockerfile
       container_name: "DYKM_Server"
       ports:
         - "1337:1337"
