@@ -1,0 +1,6 @@
+[submodule "DYKM_Client"]
+	path = DYKM_Client
+	url = git@github.com:UMBCSOFT/DYKM_Client.git
+[submodule "DYKM_Server"]
+	path = DYKM_Server
+	url = git@github.com:UMBCSOFT/DYKM_Server.git
