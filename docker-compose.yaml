@@ -6,6 +6,7 @@ services:
         container_name: "DYKM_Client"
         ports:
             - "3000:3000"
+        restart: "no"
     dykm_server:
         build:
             context: ./DYKM_Server
@@ -13,4 +14,3 @@ services:
         ports:
             - "1337:1337"
             - "4567:4567"
-
