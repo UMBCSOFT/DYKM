@@ -1,0 +1,6 @@
+Turn our CURSED q/a matching dictionary monstrosity in QuestionMatch.js into something json-like and lovable
+Address other cursed formats like this
+Then convert messages sent to the server in DYKM_Networking.js to nice json, and record its format in DYKM_Server/json_msgs.json
+
+later delete console logs that spoil everything lol
+Make all player identification use their id instead of their nickname
